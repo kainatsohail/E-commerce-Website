@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,100&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about-us h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+
+.about-us h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 4rem;
+}
+
+.mission h2 {
+    text-align: left;
+    font-size: 28px;
+    color: #333;
+    margin: 15px 0;
+}
+
+
+.brand-story-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+    margin: 10px 0;
+}
+
+
+.brand-story-detail p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.mission-detail {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.about-us,
+.mission {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+}
